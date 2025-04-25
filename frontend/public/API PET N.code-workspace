@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "API PET N",
+			"path": "../.."
+		},
+		{
+			"name": "icones",
+			"path": "../../../icones"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "API PET N"
+	}
+}

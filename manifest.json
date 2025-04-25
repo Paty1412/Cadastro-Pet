@@ -1,0 +1,92 @@
+<<<<<<< HEAD
+{
+    "name": "Pet em casa",
+    "short_name": "Pet em casa",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "icons/192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+      ,
+      {
+        "src": "icons/144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+      ,
+      {
+        "src": "icons/128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }
+    ]
+  }
+  
+=======
+{
+  "name": "Pet em Casa",
+  "short_name": "Creche",
+  "description": "Pet em casa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#eb76e0",
+  "icons": [
+    {
+      "src": "icones/92.png",
+      "sizes": "92x92",
+      "type": "image/png"
+    },
+    {
+      "src": "icones/128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icones/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icones/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },   
+    
+    {
+      "src": "icones/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+    
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot1.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/screenshot-mobile-1.png",
+      "sizes": "640x1136",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/screenshot-mobile-2.png",
+      "sizes": "640x1136",
+      "type": "image/png"
+    }
+  ]
+}
+>>>>>>> 7470644762423d83d3db9d31b9102df0b9a2e421

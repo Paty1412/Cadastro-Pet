@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Petshop - Cadastro</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#3367D6">
+
+</head>
+<body>
+  <h1>Cadastro de Tutor</h1>
+  <form id="tutorForm">
+    <input type="text" id="nomeTutor" placeholder="Nome do Tutor" required />
+    <input type="text" id="telefoneTutor" placeholder="Telefone" required />
+    <input type="text" id="enderecoTutor" placeholder="Endereço" required />
+    <button type="submit">Cadastrar Tutor</button>
+  </form>
+
+  <h1>Cadastro de Pet</h1>
+  <form id="petForm">
+    <input type="text" id="nomePet" placeholder="Nome do Pet" required />
+    <input type="number" id="idadePet" placeholder="Idade" required />
+    <input type="text" id="racaPet" placeholder="Raça" required />
+    <input type="text" id="fotoPet" placeholder="URL da Foto" required />
+    <select id="tutorPet" required>
+      <option value="">Selecione o tutor</option>
+    </select>
+    <button type="submit">Cadastrar Pet</button>
+  </form>
+
+  <h1>🐾 Pets Cadastrados</h1>
+  <ul id="listaPets"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
